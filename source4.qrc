@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>source/background.png</file>
+        <file>source/enemy1</file>
+        <file>source/enemy2</file>
+        <file>source/enemy3</file>
+        <file>source/enemy4</file>
+        <file>source/enemy5</file>
+        <file>source/enemy6</file>
+        <file>source/ground.png</file>
+        <file>source/hero3</file>
+        <file>source/playbtn.png</file>
+        <file>source/hero1.png</file>
+        <file>source/hero2.png</file>
+    </qresource>
+</RCC>

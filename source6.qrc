@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>source/fire.png</file>
+        <file>source/blood10.png</file>
+        <file>source/blood20.png</file>
+        <file>source/blood30.png</file>
+        <file>source/blood40.png</file>
+        <file>source/blood50.png</file>
+        <file>source/blood60.png</file>
+        <file>source/blood70.png</file>
+        <file>source/blood80.png</file>
+        <file>source/blood90.png</file>
+        <file>source/blood100.png</file>
+        <file>source/blood0.png</file>
+        <file>source/skeleton.png</file>
+        <file>source/posion.png</file>
+        <file>source/hero1.png</file>
+        <file>source/hero2.png</file>
+    </qresource>
+</RCC>

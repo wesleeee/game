@@ -1,0 +1,31 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include<QPainter>
+#include "playwindow.h"
+
+QT_BEGIN_NAMESPACE
+namespace Ui { class MainWindow; }
+QT_END_NAMESPACE
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+   playwindow*window;//游戏界面
+
+public:
+    MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
+    void paintEvent(QPaintEvent*);
+
+
+private slots:
+    void on_actionquit_triggered();
+
+
+
+private:
+    Ui::MainWindow *ui;
+};
+#endif // MAINWINDOW_H
